@@ -1,5 +1,5 @@
 import moment from "moment";
-import { calenderConstants, updateCalenderConstants } from "../_constants";
+import { calenderConstants } from "../_constants";
 
 export const Calender = {
   addTask,
