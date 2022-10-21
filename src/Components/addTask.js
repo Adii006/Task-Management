@@ -44,6 +44,8 @@ const AddTask = ({ id, handleClose }) => {
     }
   }, [id]);
 
+  console.log(time, "time");
+
   return (
     <Dialog
       open={true}
