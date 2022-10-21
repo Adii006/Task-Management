@@ -33,7 +33,7 @@ export const calender = (state = initialState, action) => {
     }
     case calenderConstants.UPDATE_CALENDER: {
       const formattedState =
-        !!state && state.filter((eachVal) => eachVal.id !== action.id);
+        !!state && state.filter((eachVal) => eachVal.id !== action.primaryId);
       const updatedDetails = [
         {
           displayDate: action.displayDate,

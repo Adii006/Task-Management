@@ -131,6 +131,7 @@ const AddTask = ({ id, handleClose }) => {
                   description: description,
                   date: date,
                   time: time,
+                  primaryId: id,
                 })
               : Calender.addTask({
                   title: title,

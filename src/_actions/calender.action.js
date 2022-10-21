@@ -32,6 +32,7 @@ function updateTask(value) {
     },
     id: value.date,
     time: value.time,
+    primaryId: value.primaryId,
   };
   return {
     type: calenderConstants.UPDATE_CALENDER,
